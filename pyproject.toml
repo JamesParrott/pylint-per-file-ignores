@@ -31,6 +31,9 @@ isort = "^5.10.1"
 ruff = "^0.4.0"
 tox = "^4.0.8"
 
+[tool.ruff]
+line-length = 99  # Must match that of Black, above
+
 [tool.ruff.lint]
 ignore = ["B009", "B010"]
 select = ["E", "F", "I", "S", "T20", "PL", "B"]
